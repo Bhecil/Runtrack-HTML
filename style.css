@@ -1,0 +1,57 @@
+/*these are the only colors to be used*/
+:root {
+	--color-main: #F8FAFC;
+	--color-secondary: #0F172A;
+	--color-accent: #0284C7;
+}
+
+body {
+	background: grey;
+}
+
+h1 {
+	background: var(--color-secondary);
+	color: var(--color-accent);
+	text-align: center;
+}
+
+main {
+	display: flex;
+	max-width: 900px;
+	margin: auto auto;
+	background: red;
+}
+
+#side-block {
+	flex: 1;
+	padding-left: 10px;
+	background: var(--color-accent);
+	color: var(--color-secondary);
+}
+
+#side-block h2 {
+	color: var(--color-main);
+}
+
+#main-block {
+	flex: 2;
+	padding-left: 10px;
+	background: var(--color-main);
+	color: var(--color-secondary);
+}
+
+#main-block h2 {
+	color: var(--color-accent);
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 70px;
+	text-align: center;
+	
+	background: var(--color-secondary);
+}
+

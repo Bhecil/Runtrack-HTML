@@ -1,57 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" lang="fr" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Resume - Vincent Pernet</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<h1>Vincent Pernet</h1>
-	<!-- Personal Info -->
-	<div>
-		<h2>My Info</h2>
-		<p>Phone: +33 6 56 78 14 87</p>
-		<p>Address: 88 My Street 13005 MARSEILLE</p>
-		<p>Github: bhecil</p>
-	</div>
+	<header>
+		<h1>Vincent Pernet</h1>
+	</header>
 
-	<!-- Profesional goal -->
-	<div>
-		<h2>My goal</h2>
-		<p>Learning and growing my skillset in informatics to do a career change</p>
-	</div>
+	<main>
+		<div id="side-block">
+			<div>
+				<!-- Personal Info -->
+				<h2 class="title">Info</h2>
+				<p>+33 6 56 78 14 87</p>
+				<p>88 My Street<br>13005 MARSEILLE</p>
+			</div>
 
-	<!-- Experience -->
-	<div>
-		<h2>My Experience</h2>
-		<ul>
-			<li>Games LQA Tester | Lionbridge Games [Jul 2024 - Sep 2026]</li>
-			<li>Game Designer | Virtuos Studio [Jul 2023 - Aug 2023]</li>
-		</ul>
-	</div>
+			<div>
+				<h2 class="title">Skills</h2>
+				<ul>
+					<li><img src="Assets/linux.png" width=45 alt="Linux">Linux</li>
+					<li><img src="Assets/html.png" width=45 alt="HTML">HTML</li>
+					<li><img src="Assets/python.png" width=45 alt="Python">Python</li>
+				</ul>
+			</div>
+		</div>
 
-	<!-- Education -->
-	<div>
-		<h2>My Education</h2>
-		<ul>
-			<li>Bachelor IT | Ecole La Plateforme [Oct 2026 - Jun 2029]
-			<li>Bachelor Game Design | Ecole Brassart [Sep 2021 - Jun 2024]</li>
-		</ul>
-	</div>
+		<div id="main-block">
+			<!-- Profesional Goal -->
+			<div>
+				<h2 class="title">About me</h2>
+				<p>Currently learning at La Plateforme and growing my skillset in informatics.</p>
+			</div>
 
-	<div>
-		<h2>My Skills</h2>
-		<ul>
-			<li><img src="Assets/linux.png" width="45">Linux</li>
-			<li><img src="Assets/html.png" width="45">HTML</li>
-			<li><img src="Assets/python.png" width="45">Python</li>
-		</ul>
-	</div>
+			<!-- Profesional Experience -->
+			<div>
+				<h2 class="title">Experience</h2>
+				<ul>
+					<li>Games LQA Tester | Lionbridge Games [Jul 2024 - Sep 2026]</li>
+					<li>Game Designer | Virtuos Studio [Jul 2023 - Aug 2023]</li>
+				</ul>
+			</div>
+
+			<!-- Education -->
+			<div>
+				<h2 class="title">Education</h2>
+				<ul>
+					<li>Bachelor IT | Ecole La Plateforme [Oct 2026 - present]</li>
+					<li>Bachelor Game Design | Ecole Brassart [Sep 2021 - Jun 2024]</li>
+				</ul>
+			</div>
+		</div>
+	</main>
 
 	<footer>
 		<a href="https://github.com/Bhecil">My Github</a>
 		<a href="Assets/Resume - Vincent Pernet.pdf">Download My Resume</a>
-		
 	</footer>
 
 </body>

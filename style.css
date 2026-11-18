@@ -7,19 +7,18 @@
 
 body {
 	background: grey;
+	max-width: 900px;
+	margin: auto auto;
 }
 
-h1 {
-	background: var(--color-secondary);
-	color: var(--color-accent);
+header {
 	text-align: center;
+	background: var(--color-secondary);
+	color: var(--color-main);
 }
 
 main {
 	display: flex;
-	max-width: 900px;
-	margin: auto auto;
-	background: red;
 }
 
 #side-block {
@@ -44,14 +43,20 @@ main {
 	color: var(--color-accent);
 }
 
-footer {
+footer nav {
 	position: fixed;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	height: 70px;
-	text-align: center;
-	
+	bottom: 20px;
+	left: auto;
+	width: 900px;
+	height: auto;
 	background: var(--color-secondary);
+	text-align: center;
+}
+
+footer nav a {
+	color: var(--color-main);
+	display: inline-block;
+	padding: 10px 15px;
+	margin: 0 30px;
 }
 

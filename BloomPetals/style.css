@@ -60,6 +60,7 @@ section {
 	display: grid;
 	gap: 10px;
 	grid-template-columns: 1fr 1fr;
+	padding: 0;
 }
 
 #team-img li {
@@ -72,6 +73,7 @@ section {
 #team-img img {
 	height: 100%;
 	width: 100%;
+	object-fit: cover;
 }
 
 #contact {
@@ -87,4 +89,26 @@ section {
 	max-width: 500px;
 	padding: 10px;
 	text-align: left;
+}
+
+#real ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 10px;
+	justify-content: center;
+	padding: 0;
+}
+
+#real li {
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	list-style: none;
+	padding: 0;
+}
+
+#real img {
+	width: 200px;
 }

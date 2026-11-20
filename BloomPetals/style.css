@@ -1,16 +1,16 @@
 body {
 	background: #FAF8F5;
-	max-width: 900px;
-	margin: 0 auto;
 	color: #333333;
 	font-size: 13px;
+	margin: 0 auto;
+	max-width: 900px;
 }
 
 header, footer {
 	background: #2F3E34;
-	padding: 15px;
 	display: flex;
 	gap: 30px;
+	padding: 15px;
 }
 
 section {
@@ -20,8 +20,8 @@ section {
 
 #main-nav a {
 	color: #FAF8F5;
-	text-decoration: none;
 	margin: 30px;
+	text-decoration: none;
 }
 
 #main-desc {
@@ -54,4 +54,37 @@ section {
 #main-serv li {
 	flex: 1;
 	text-align: center;
+}
+
+#team-img ul {
+	display: grid;
+	gap: 10px;
+	grid-template-columns: 1fr 1fr;
+}
+
+#team-img li {
+	display: flex;
+	gap: 10px;
+	list-style: none;
+	padding: 0;
+}
+
+#team-img img {
+	height: 100%;
+	width: 100%;
+}
+
+#contact {
+	text-align: center;
+}
+
+#contact form {
+	align-content: center;
+	display: grid;
+	gap: 10px;
+	grid-template-columns: 1fr 3fr;
+	margin: 0 auto;
+	max-width: 500px;
+	padding: 10px;
+	text-align: left;
 }
